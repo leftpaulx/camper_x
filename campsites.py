@@ -13,6 +13,8 @@ from camply.search import SearchRecreationDotGov,\
                             SearchOregonMetro,\
                             SearchMinnesotaStateParks
 
+# List for supported provider
+
 campsite_list={
     'reservecalifornia.com': SearchReserveCalifornia,
     'recreation.gov':SearchRecreationDotGov,
