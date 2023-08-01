@@ -1,0 +1,1392 @@
+{
+  "Message": "Built in 0.3904 ms size 10323 bytes on MNDNR-RDR2",
+  "UnitCategories": [
+    {
+      "UnitCategoryId": 25,
+      "UnitCategoryName": "Camping",
+      "HasEquipment": true,
+      "Icon": "camping"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitCategoryName": "Day Use Facilities",
+      "HasEquipment": false,
+      "Icon": "dayusefacilities"
+    },
+    {
+      "UnitCategoryId": 24,
+      "UnitCategoryName": "Equipment Rental",
+      "HasEquipment": false,
+      "Icon": "equipmentrental"
+    },
+    {
+      "UnitCategoryId": 20,
+      "UnitCategoryName": "Group Camping",
+      "HasEquipment": false,
+      "Icon": "groupcamping"
+    },
+    {
+      "UnitCategoryId": 26,
+      "UnitCategoryName": "Group Centers",
+      "HasEquipment": false,
+      "Icon": "groupcenters"
+    },
+    {
+      "UnitCategoryId": 23,
+      "UnitCategoryName": "Lodging - Group",
+      "HasEquipment": false,
+      "Icon": "lodginggroup"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitCategoryName": "Lodging/Cabins",
+      "HasEquipment": false,
+      "Icon": "lodgingcabins"
+    },
+    {
+      "UnitCategoryId": 28,
+      "UnitCategoryName": "SFRA",
+      "HasEquipment": false,
+      "Icon": "sfra"
+    }
+  ],
+  "NightlySleepingUnits": [
+    {
+      "UnitCategoryId": 25,
+      "SleepingUnitId": 66,
+      "SleepingUnitName": "5th Wheel Trailer",
+      "IsWheeled": true,
+      "Icon": "5thwheeltrailer"
+    },
+    {
+      "UnitCategoryId": 25,
+      "SleepingUnitId": 32,
+      "SleepingUnitName": "Car/Truck/Van",
+      "IsWheeled": true,
+      "Icon": "cartruckvan"
+    },
+    {
+      "UnitCategoryId": 25,
+      "SleepingUnitId": 18,
+      "SleepingUnitName": "Motorhome (RV)",
+      "IsWheeled": true,
+      "Icon": "motorhomerv"
+    },
+    {
+      "UnitCategoryId": 25,
+      "SleepingUnitId": 69,
+      "SleepingUnitName": "No Equipment",
+      "IsWheeled": false,
+      "Icon": "noequipment"
+    },
+    {
+      "UnitCategoryId": 25,
+      "SleepingUnitId": 25,
+      "SleepingUnitName": "Pickup Camper",
+      "IsWheeled": true,
+      "Icon": "pickupcamper"
+    },
+    {
+      "UnitCategoryId": 25,
+      "SleepingUnitId": 20,
+      "SleepingUnitName": "Pop-Up Trailer",
+      "IsWheeled": true,
+      "Icon": "popuptrailer"
+    },
+    {
+      "UnitCategoryId": 25,
+      "SleepingUnitId": 31,
+      "SleepingUnitName": "Tent",
+      "IsWheeled": false,
+      "Icon": "tent"
+    },
+    {
+      "UnitCategoryId": 25,
+      "SleepingUnitId": 21,
+      "SleepingUnitName": "Travel Trailer",
+      "IsWheeled": true,
+      "Icon": "traveltrailer"
+    }
+  ],
+  "MinVehicleLengths": [
+    {
+      "SleepingUnitId": 32,
+      "MinVehicleLength": 10,
+      "MinVehicleName": "> 10",
+      "Icon": "10"
+    },
+    {
+      "SleepingUnitId": 32,
+      "MinVehicleLength": 20,
+      "MinVehicleName": "> 20",
+      "Icon": "20"
+    },
+    {
+      "SleepingUnitId": 32,
+      "MinVehicleLength": 30,
+      "MinVehicleName": "> 30",
+      "Icon": "30"
+    },
+    {
+      "SleepingUnitId": 32,
+      "MinVehicleLength": 40,
+      "MinVehicleName": "> 40",
+      "Icon": "40"
+    },
+    {
+      "SleepingUnitId": 32,
+      "MinVehicleLength": 50,
+      "MinVehicleName": "> 50",
+      "Icon": "50"
+    },
+    {
+      "SleepingUnitId": 32,
+      "MinVehicleLength": 60,
+      "MinVehicleName": "> 60",
+      "Icon": "60"
+    },
+    {
+      "SleepingUnitId": 32,
+      "MinVehicleLength": 70,
+      "MinVehicleName": "> 70",
+      "Icon": "70"
+    },
+    {
+      "SleepingUnitId": 66,
+      "MinVehicleLength": 10,
+      "MinVehicleName": "> 10",
+      "Icon": "10"
+    },
+    {
+      "SleepingUnitId": 66,
+      "MinVehicleLength": 20,
+      "MinVehicleName": "> 20",
+      "Icon": "20"
+    },
+    {
+      "SleepingUnitId": 66,
+      "MinVehicleLength": 30,
+      "MinVehicleName": "> 30",
+      "Icon": "30"
+    },
+    {
+      "SleepingUnitId": 66,
+      "MinVehicleLength": 40,
+      "MinVehicleName": "> 40",
+      "Icon": "40"
+    },
+    {
+      "SleepingUnitId": 66,
+      "MinVehicleLength": 50,
+      "MinVehicleName": "> 50",
+      "Icon": "50"
+    },
+    {
+      "SleepingUnitId": 66,
+      "MinVehicleLength": 60,
+      "MinVehicleName": "> 60",
+      "Icon": "60"
+    },
+    {
+      "SleepingUnitId": 66,
+      "MinVehicleLength": 70,
+      "MinVehicleName": "> 70",
+      "Icon": "70"
+    },
+    {
+      "SleepingUnitId": 18,
+      "MinVehicleLength": 10,
+      "MinVehicleName": "> 10",
+      "Icon": "10"
+    },
+    {
+      "SleepingUnitId": 18,
+      "MinVehicleLength": 20,
+      "MinVehicleName": "> 20",
+      "Icon": "20"
+    },
+    {
+      "SleepingUnitId": 18,
+      "MinVehicleLength": 30,
+      "MinVehicleName": "> 30",
+      "Icon": "30"
+    },
+    {
+      "SleepingUnitId": 18,
+      "MinVehicleLength": 40,
+      "MinVehicleName": "> 40",
+      "Icon": "40"
+    },
+    {
+      "SleepingUnitId": 18,
+      "MinVehicleLength": 50,
+      "MinVehicleName": "> 50",
+      "Icon": "50"
+    },
+    {
+      "SleepingUnitId": 18,
+      "MinVehicleLength": 60,
+      "MinVehicleName": "> 60",
+      "Icon": "60"
+    },
+    {
+      "SleepingUnitId": 18,
+      "MinVehicleLength": 70,
+      "MinVehicleName": "> 70",
+      "Icon": "70"
+    },
+    {
+      "SleepingUnitId": 20,
+      "MinVehicleLength": 10,
+      "MinVehicleName": "> 10",
+      "Icon": "10"
+    },
+    {
+      "SleepingUnitId": 20,
+      "MinVehicleLength": 20,
+      "MinVehicleName": "> 20",
+      "Icon": "20"
+    },
+    {
+      "SleepingUnitId": 20,
+      "MinVehicleLength": 30,
+      "MinVehicleName": "> 30",
+      "Icon": "30"
+    },
+    {
+      "SleepingUnitId": 20,
+      "MinVehicleLength": 40,
+      "MinVehicleName": "> 40",
+      "Icon": "40"
+    },
+    {
+      "SleepingUnitId": 20,
+      "MinVehicleLength": 50,
+      "MinVehicleName": "> 50",
+      "Icon": "50"
+    },
+    {
+      "SleepingUnitId": 20,
+      "MinVehicleLength": 60,
+      "MinVehicleName": "> 60",
+      "Icon": "60"
+    },
+    {
+      "SleepingUnitId": 20,
+      "MinVehicleLength": 70,
+      "MinVehicleName": "> 70",
+      "Icon": "70"
+    },
+    {
+      "SleepingUnitId": 21,
+      "MinVehicleLength": 10,
+      "MinVehicleName": "> 10",
+      "Icon": "10"
+    },
+    {
+      "SleepingUnitId": 21,
+      "MinVehicleLength": 20,
+      "MinVehicleName": "> 20",
+      "Icon": "20"
+    },
+    {
+      "SleepingUnitId": 21,
+      "MinVehicleLength": 30,
+      "MinVehicleName": "> 30",
+      "Icon": "30"
+    },
+    {
+      "SleepingUnitId": 21,
+      "MinVehicleLength": 40,
+      "MinVehicleName": "> 40",
+      "Icon": "40"
+    },
+    {
+      "SleepingUnitId": 21,
+      "MinVehicleLength": 50,
+      "MinVehicleName": "> 50",
+      "Icon": "50"
+    },
+    {
+      "SleepingUnitId": 21,
+      "MinVehicleLength": 60,
+      "MinVehicleName": "> 60",
+      "Icon": "60"
+    },
+    {
+      "SleepingUnitId": 21,
+      "MinVehicleLength": 70,
+      "MinVehicleName": "> 70",
+      "Icon": "70"
+    },
+    {
+      "SleepingUnitId": 25,
+      "MinVehicleLength": 10,
+      "MinVehicleName": "> 10",
+      "Icon": "10"
+    },
+    {
+      "SleepingUnitId": 25,
+      "MinVehicleLength": 20,
+      "MinVehicleName": "> 20",
+      "Icon": "20"
+    },
+    {
+      "SleepingUnitId": 25,
+      "MinVehicleLength": 30,
+      "MinVehicleName": "> 30",
+      "Icon": "30"
+    },
+    {
+      "SleepingUnitId": 25,
+      "MinVehicleLength": 40,
+      "MinVehicleName": "> 40",
+      "Icon": "40"
+    },
+    {
+      "SleepingUnitId": 25,
+      "MinVehicleLength": 50,
+      "MinVehicleName": "> 50",
+      "Icon": "50"
+    },
+    {
+      "SleepingUnitId": 25,
+      "MinVehicleLength": 60,
+      "MinVehicleName": "> 60",
+      "Icon": "60"
+    },
+    {
+      "SleepingUnitId": 25,
+      "MinVehicleLength": 70,
+      "MinVehicleName": "> 70",
+      "Icon": "70"
+    }
+  ],
+  "UnitTypesGroups": [
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 146,
+      "UnitTypesGroupName": "Cabin (8 Person)",
+      "Icon": "cabin8person"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 147,
+      "UnitTypesGroupName": "Cabin (6 Person)",
+      "Icon": "cabin6person"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 148,
+      "UnitTypesGroupName": "Cabin (4 Person)",
+      "Icon": "cabin4person"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 149,
+      "UnitTypesGroupName": "Cabin (2 Person)",
+      "Icon": "cabin2person"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 150,
+      "UnitTypesGroupName": "Suites",
+      "Icon": "suites"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 151,
+      "UnitTypesGroupName": "Guest House",
+      "Icon": "guesthouse"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 182,
+      "UnitTypesGroupName": "Room",
+      "Icon": "room"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 183,
+      "UnitTypesGroupName": "Camper Cabin - Basic",
+      "Icon": "campercabinbasic"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 184,
+      "UnitTypesGroupName": "Camper Cabin-Electric/or Heat",
+      "Icon": "campercabinelectricorheat"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 196,
+      "UnitTypesGroupName": "Cabin (6 Person) - A",
+      "Icon": "cabin6persona"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 198,
+      "UnitTypesGroupName": "Cabin (6 Person) - B",
+      "Icon": "cabin6personb"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 199,
+      "UnitTypesGroupName": "Cabin (4 Person) - A",
+      "Icon": "cabin4persona"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 200,
+      "UnitTypesGroupName": "Cabin (4 Person) - B",
+      "Icon": "cabin4personb"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 201,
+      "UnitTypesGroupName": "Cabin (8 Person) - A",
+      "Icon": "cabin8persona"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 221,
+      "UnitTypesGroupName": "Yurt (3 person)",
+      "Icon": "yurt3person"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 222,
+      "UnitTypesGroupName": "Yurt (7 person)",
+      "Icon": "yurt7person"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 232,
+      "UnitTypesGroupName": "Double Room",
+      "Icon": "doubleroom"
+    },
+    {
+      "UnitCategoryId": 17,
+      "UnitTypesGroupId": 233,
+      "UnitTypesGroupName": "Single Room",
+      "Icon": "singleroom"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 143,
+      "UnitTypesGroupName": "Open Picnic Shelter",
+      "Icon": "openpicnicshelter"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 211,
+      "UnitTypesGroupName": "Trail Center",
+      "Icon": "trailcenter"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 212,
+      "UnitTypesGroupName": "Enclosed Picnic Shelter",
+      "Icon": "enclosedpicnicshelter"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 214,
+      "UnitTypesGroupName": "Meeting Room",
+      "Icon": "meetingroom"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 215,
+      "UnitTypesGroupName": "Amphitheater",
+      "Icon": "amphitheater"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 217,
+      "UnitTypesGroupName": "Dining Hall",
+      "Icon": "dininghall"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 218,
+      "UnitTypesGroupName": "Interpretive Center",
+      "Icon": "interpretivecenter"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 219,
+      "UnitTypesGroupName": "Meeting Room (Half)",
+      "Icon": "meetingroomhalf"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 227,
+      "UnitTypesGroupName": "Track Chair",
+      "Icon": "trackchair"
+    },
+    {
+      "UnitCategoryId": 19,
+      "UnitTypesGroupId": 234,
+      "UnitTypesGroupName": "Beach Chair",
+      "Icon": "beachchair"
+    },
+    {
+      "UnitCategoryId": 20,
+      "UnitTypesGroupId": 179,
+      "UnitTypesGroupName": "Group Area - Premium",
+      "Icon": "groupareapremium"
+    },
+    {
+      "UnitCategoryId": 20,
+      "UnitTypesGroupId": 180,
+      "UnitTypesGroupName": "Group Area - Basic",
+      "Icon": "groupareabasic"
+    },
+    {
+      "UnitCategoryId": 20,
+      "UnitTypesGroupId": 181,
+      "UnitTypesGroupName": "Group Area -  Canoe-In/Boat-In",
+      "Icon": "groupareacanoeinboatin"
+    },
+    {
+      "UnitCategoryId": 23,
+      "UnitTypesGroupId": 187,
+      "UnitTypesGroupName": "Itasca Club House",
+      "Icon": "itascaclubhouse"
+    },
+    {
+      "UnitCategoryId": 24,
+      "UnitTypesGroupId": 194,
+      "UnitTypesGroupName": "Boat/Canoe/Kayak",
+      "Icon": "boatcanoekayak"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 158,
+      "UnitTypesGroupName": "Canoe-In/Boat-In",
+      "Icon": "canoeinboatin"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 162,
+      "UnitTypesGroupName": "Drive-In",
+      "Icon": "drivein"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 163,
+      "UnitTypesGroupName": "Drive-In Electric",
+      "Icon": "driveinelectric"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 164,
+      "UnitTypesGroupName": "Walk-In",
+      "Icon": "walkin"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 165,
+      "UnitTypesGroupName": "Cart-In",
+      "Icon": "cartin"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 172,
+      "UnitTypesGroupName": "Drive-In Electric/Water/Sewer",
+      "Icon": "driveinelectricwatersewer"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 174,
+      "UnitTypesGroupName": "Drive-In Equestrian Electric",
+      "Icon": "driveinequestrianelectric"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 175,
+      "UnitTypesGroupName": "Tipi",
+      "Icon": "tipi"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 176,
+      "UnitTypesGroupName": "Bike-In",
+      "Icon": "bikein"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 177,
+      "UnitTypesGroupName": "Backpack",
+      "Icon": "backpack"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 178,
+      "UnitTypesGroupName": "Water Accessible",
+      "Icon": "wateraccessible"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 205,
+      "UnitTypesGroupName": "Drive-In Wall Tent",
+      "Icon": "driveinwalltent"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 206,
+      "UnitTypesGroupName": "Drive-In Equestrian Electric Double Site",
+      "Icon": "driveinequestrianelectricdoublesite"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 209,
+      "UnitTypesGroupName": "Drive-In Equestrian Triple Site",
+      "Icon": "driveinequestriantriplesite"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 210,
+      "UnitTypesGroupName": "Drive-In Double Site",
+      "Icon": "driveindoublesite"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 223,
+      "UnitTypesGroupName": "Drive-in Electric Double Site",
+      "Icon": "driveinelectricdoublesite"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 224,
+      "UnitTypesGroupName": "Canoe-In/Boat-In Double Site",
+      "Icon": "canoeinboatindoublesite"
+    },
+    {
+      "UnitCategoryId": 25,
+      "UnitTypesGroupId": 226,
+      "UnitTypesGroupName": "Drive-In Equestrian",
+      "Icon": "driveinequestrian"
+    },
+    {
+      "UnitCategoryId": 26,
+      "UnitTypesGroupId": 186,
+      "UnitTypesGroupName": "Group Center Class II",
+      "Icon": "groupcenterclassii"
+    },
+    {
+      "UnitCategoryId": 28,
+      "UnitTypesGroupId": 225,
+      "UnitTypesGroupName": "Group Camp SFRA",
+      "Icon": "groupcampsfra"
+    }
+  ],
+  "PlaceHighlights": [],
+  "AllAmenity": [
+    {
+      "AmenityId": 1,
+      "Name": "DistDumpStation",
+      "ShortName": "DumpStation",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 9,
+      "IDate": "2011-10-19T10:59:09.803",
+      "UDate": "2012-02-28T15:43:23.113",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 2,
+      "Name": "Food  Locker",
+      "ShortName": "Food  Locker",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 22,
+      "IDate": "2011-10-19T10:59:09.82",
+      "UDate": "2012-02-28T15:43:16.08",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 3,
+      "Name": "Left Slide Out",
+      "ShortName": "Left Slide Out",
+      "AmenityType": 2,
+      "IsSearchable": true,
+      "Description": "Camping",
+      "OrderBy": 11,
+      "IDate": "2011-10-19T10:59:09.82",
+      "UDate": "2011-10-19T10:59:09.82",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 4,
+      "Name": "Pad Length",
+      "ShortName": "Pad Length",
+      "AmenityType": 1,
+      "IsSearchable": true,
+      "Description": "Pad Length",
+      "OrderBy": 16,
+      "IDate": "2011-10-19T10:59:09.837",
+      "UDate": "2012-02-28T15:43:51.737",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 5,
+      "Name": "Pad Type",
+      "ShortName": "Parking Pad Type",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 14,
+      "IDate": "2011-10-19T10:59:09.837",
+      "UDate": "2012-02-28T15:42:28.723",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 6,
+      "Name": "Pad Width(ft)",
+      "ShortName": "Parking Pad Width",
+      "AmenityType": 1,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 15,
+      "IDate": "2011-10-19T10:59:09.85",
+      "UDate": "2012-02-28T15:42:23.033",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 7,
+      "Name": "Pull-thru/Back-in",
+      "ShortName": "Pull-thru/Back-in",
+      "AmenityType": 2,
+      "IsSearchable": true,
+      "Description": "Camping",
+      "OrderBy": 13,
+      "IDate": "2011-10-19T10:59:09.85",
+      "UDate": "2011-10-19T10:59:09.85",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 8,
+      "Name": "Right Slide Out",
+      "ShortName": "Right Slide Out",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 12,
+      "IDate": "2011-10-19T10:59:09.85",
+      "UDate": "2011-10-19T10:59:09.85",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 9,
+      "Name": "Shaded",
+      "ShortName": "Shaded",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 10,
+      "IDate": "2011-10-19T10:59:09.867",
+      "UDate": "2012-02-28T15:42:03.38",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 10,
+      "Name": "Tent Pad Dimension",
+      "ShortName": "Tent Pad Dimension",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 17,
+      "IDate": "2011-10-19T10:59:09.867",
+      "UDate": "2012-02-28T15:41:39.067",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 11,
+      "Name": "Tent Pad Type",
+      "ShortName": "Tent Pad Type",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 18,
+      "IDate": "2011-10-19T10:59:09.883",
+      "UDate": "2011-10-19T10:59:09.883",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 12,
+      "Name": "ADA",
+      "ShortName": "ADA",
+      "AmenityType": 0,
+      "IsSearchable": true,
+      "Description": "Camping and Lodging",
+      "OrderBy": 2,
+      "IDate": "2011-10-19T10:59:09.883",
+      "UDate": "2011-10-19T10:59:09.883",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 13,
+      "Name": "Pets Allowed",
+      "ShortName": "Pets Allowed",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping and Lodging",
+      "OrderBy": 3,
+      "IDate": "2011-10-19T10:59:09.883",
+      "UDate": "2011-10-19T10:59:09.883",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 14,
+      "Name": "Dist to Lake/River/Creek",
+      "ShortName": "Lake/River/Creek",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping and Lodging",
+      "OrderBy": 6,
+      "IDate": "2011-10-19T10:59:09.9",
+      "UDate": "2012-02-28T15:43:33.8",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 15,
+      "Name": "Distance to Restroom",
+      "ShortName": "Distance to Restroom",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping and Lodging",
+      "OrderBy": 7,
+      "IDate": "2011-10-19T10:59:09.9",
+      "UDate": "2012-02-28T15:43:30.08",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 16,
+      "Name": "Distance to Showers",
+      "ShortName": "Distance to Showers",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping and Lodging",
+      "OrderBy": 8,
+      "IDate": "2011-10-19T10:59:09.9",
+      "UDate": "2012-02-28T15:43:26.69",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 17,
+      "Name": "Grill Type",
+      "ShortName": "Grill Type",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping and Lodging",
+      "OrderBy": 20,
+      "IDate": "2011-10-19T10:59:09.913",
+      "UDate": "2012-02-28T15:43:12.69",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 18,
+      "Name": "Max Number of Vehicles",
+      "ShortName": "Max Vehicles",
+      "AmenityType": 1,
+      "IsSearchable": true,
+      "Description": "Camping and Lodging",
+      "OrderBy": 40,
+      "IDate": "2011-10-19T10:59:09.913",
+      "UDate": "2011-10-19T10:59:09.913",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 19,
+      "Name": "Picnic Table",
+      "ShortName": "Picnic Table",
+      "AmenityType": 1,
+      "IsSearchable": false,
+      "Description": "Camping and Lodging",
+      "OrderBy": 19,
+      "IDate": "2011-10-19T10:59:09.93",
+      "UDate": "2012-02-28T15:42:12.533",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 20,
+      "Name": "Water Front",
+      "ShortName": "Water Front",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping and Lodging",
+      "OrderBy": 5,
+      "IDate": "2011-10-19T10:59:09.93",
+      "UDate": "2011-10-19T10:59:09.93",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 21,
+      "Name": "Air Conditioned",
+      "ShortName": "Air Conditioned",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 23,
+      "IDate": "2011-10-19T10:59:09.93",
+      "UDate": "2012-02-28T15:43:41.567",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 22,
+      "Name": "Bathroom Type",
+      "ShortName": "Bathroom Type",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 29,
+      "IDate": "2011-10-19T10:59:09.947",
+      "UDate": "2012-02-28T15:43:37.113",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 23,
+      "Name": "Fireplace",
+      "ShortName": "Fireplace",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 25,
+      "IDate": "2011-10-19T10:59:09.947",
+      "UDate": "2012-02-28T15:43:19.58",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 24,
+      "Name": "Heat",
+      "ShortName": "Heat",
+      "AmenityType": 2,
+      "IsSearchable": true,
+      "Description": "Lodging",
+      "OrderBy": 24,
+      "IDate": "2011-10-19T10:59:09.96",
+      "UDate": "2021-02-02T09:11:00.23",
+      "ImagePath": null,
+      "UCashierName": "US eDirect Admin",
+      "UStoreId": 999,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 25,
+      "Name": "Number of Bedrooms",
+      "ShortName": "Number of Bedrooms",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 26,
+      "IDate": "2011-10-19T10:59:09.96",
+      "UDate": "2011-10-19T10:59:09.96",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 26,
+      "Name": "Number of Beds",
+      "ShortName": "Number of Beds",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 27,
+      "IDate": "2011-10-19T10:59:09.96",
+      "UDate": "2012-02-28T15:42:53.55",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 27,
+      "Name": "Porch Description",
+      "ShortName": "Porch Description",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 30,
+      "IDate": "2011-10-19T10:59:09.977",
+      "UDate": "2012-02-28T15:42:07.283",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 28,
+      "Name": "Housekeeping Service",
+      "ShortName": "Housekeeping Service",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 33,
+      "IDate": "2011-10-19T10:59:09.977",
+      "UDate": "2012-02-28T15:43:04.27",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 29,
+      "Name": "Shower",
+      "ShortName": "Shower",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 28,
+      "IDate": "2011-10-19T10:59:09.977",
+      "UDate": "2012-02-28T15:41:49.567",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 30,
+      "Name": "Kitchen Type",
+      "ShortName": "Kitchen Type",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Lodging",
+      "OrderBy": 31,
+      "IDate": "2011-10-19T10:59:09.99",
+      "UDate": "2012-02-28T15:42:57.927",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 31,
+      "Name": "Amp",
+      "ShortName": "Amp",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 4,
+      "IDate": "2011-10-19T10:59:09.99",
+      "UDate": "2011-10-19T10:59:09.99",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 33,
+      "Name": "Stairs",
+      "ShortName": "Stairs",
+      "AmenityType": 0,
+      "IsSearchable": false,
+      "Description": "",
+      "OrderBy": 32,
+      "IDate": "2011-11-19T14:59:46.553",
+      "UDate": "2012-02-28T15:41:32.177",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 37,
+      "Name": "Hike In Distance",
+      "ShortName": "Hike In Distance",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 1,
+      "IDate": "2012-03-12T11:14:18.203",
+      "UDate": "2012-03-12T11:14:43.047",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 41,
+      "Name": "Max Number of People",
+      "ShortName": "",
+      "AmenityType": 1,
+      "IsSearchable": true,
+      "Description": null,
+      "OrderBy": 39,
+      "IDate": "2014-02-04T09:41:04.667",
+      "UDate": "2014-02-04T09:41:12.587",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 42,
+      "Name": "Site/Building Description",
+      "ShortName": "BldgDscriptin",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 34,
+      "IDate": "2014-02-04T09:41:12.23",
+      "UDate": "2014-02-04T09:43:11.4",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 43,
+      "Name": "Location Description",
+      "ShortName": "Location Description",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 35,
+      "IDate": "2014-02-04T09:42:57.183",
+      "UDate": "2014-02-04T09:43:08.37",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 44,
+      "Name": "Electrical Outlets",
+      "ShortName": "",
+      "AmenityType": 1,
+      "IsSearchable": true,
+      "Description": null,
+      "OrderBy": 41,
+      "IDate": "2014-02-04T09:43:30.26",
+      "UDate": "2014-02-04T09:43:35.73",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 45,
+      "Name": "Water",
+      "ShortName": "Water",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 44,
+      "IDate": "2014-02-04T09:43:48.307",
+      "UDate": "2014-02-04T09:43:54.087",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 46,
+      "Name": "Provided Seating Capacity",
+      "ShortName": "",
+      "AmenityType": 1,
+      "IsSearchable": true,
+      "Description": null,
+      "OrderBy": 36,
+      "IDate": "2014-02-04T09:43:53.743",
+      "UDate": "2014-02-04T09:44:33.167",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 47,
+      "Name": "Number of Tables",
+      "ShortName": "",
+      "AmenityType": 1,
+      "IsSearchable": true,
+      "Description": null,
+      "OrderBy": 37,
+      "IDate": "2014-02-04T09:44:32.807",
+      "UDate": "2014-02-04T09:44:44.853",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 48,
+      "Name": "Seating Type",
+      "ShortName": "Seating Type",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 38,
+      "IDate": "2014-02-04T09:44:44.527",
+      "UDate": "2014-02-04T09:45:20.353",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 49,
+      "Name": "Restroom",
+      "ShortName": "Restroom",
+      "AmenityType": 2,
+      "IsSearchable": false,
+      "Description": "Camping",
+      "OrderBy": 43,
+      "IDate": "2014-02-04T09:45:19.917",
+      "UDate": "2014-02-04T09:45:27.167",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 50,
+      "Name": "Interior Lighting",
+      "ShortName": "",
+      "AmenityType": 0,
+      "IsSearchable": true,
+      "Description": null,
+      "OrderBy": 42,
+      "IDate": "2014-02-04T09:45:26.697",
+      "UDate": "2014-02-04T09:45:33.87",
+      "ImagePath": null,
+      "UCashierName": null,
+      "UStoreId": 0,
+      "IsADA": false,
+      "Value": null
+    },
+    {
+      "AmenityId": 52,
+      "Name": "Horse Required",
+      "ShortName": "",
+      "AmenityType": 0,
+      "IsSearchable": false,
+      "Description": "Horse required to reserve site",
+      "OrderBy": 0,
+      "IDate": "2023-05-18T12:09:52.457",
+      "UDate": "2023-05-18T12:09:52.457",
+      "ImagePath": null,
+      "UCashierName": "Chris Simon",
+      "UStoreId": 33,
+      "IsADA": false,
+      "Value": null
+    }
+  ]
+}
