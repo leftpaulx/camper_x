@@ -16,8 +16,8 @@ from camply.search import SearchRecreationDotGov,\
 # List for supported provider
 
 campsite_list={
-    'reservecalifornia.com': SearchReserveCalifornia,
     'recreation.gov':SearchRecreationDotGov,
+    'reservecalifornia.com': SearchReserveCalifornia,
     'yellowstonenationalparklodges.com':SearchYellowstone,
     'goingtocamp.com':SearchGoingToCamp,
     'reservealapark.com':SearchAlabamaStateParks,

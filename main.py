@@ -70,7 +70,7 @@ with col1:
                        help='Recreation area id can be found in the reservation website url')
     
 with col2:
-    if st.checkbox('Is there a campground id',help='Campground id can be found in the reservation website url after recreation area id (optional)'):
+    if st.checkbox('Search by Campground id?',help="Try campground id if you see string 'campground' in the url or recreation area does not work."):
         campground_id=st.number_input('Please enter the campground id',
                         min_value=0,
                         step=1)

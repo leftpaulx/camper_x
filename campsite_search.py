@@ -132,5 +132,6 @@ class camper_x:
             ## direct regular search stderr to streamlit
             with st_stderr("code"):
                 df=self.find_campsite(rec_area=rec_area,campground_id=campground_id)
-        return df
+        return df[['booking_date','booking_end_date','campsite_use_type','recreation_area','facility_name','booking_url']]
+
 
