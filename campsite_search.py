@@ -91,6 +91,8 @@ class camper_x:
         while True:
             print(f'{dt.now()}    🌎🌎🌎🌎Searching Started...')
             df=self.find_campsite(rec_area,log=False,verbose=False,campground_id=campground_id)
+            if session_state==False:
+                break
             if len(df)>0:
                 #email alert setup
                 if len(email)>0 and valid_email:     
