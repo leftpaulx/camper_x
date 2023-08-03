@@ -7,7 +7,7 @@ except ImportError:
     # Running on pre-3.8 Python; use importlib-metadata package
     import importlib_metadata as metadata
 
-__version__ = '1.1.3'
+__version__ = metadata.version("fake-useragent")
 
 DB = os.path.join(
     tempfile.gettempdir(),
