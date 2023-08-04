@@ -17,8 +17,11 @@ def st_redirect(src, dst):
 
         def new_write(b):
             if getattr(current_thread(), SCRIPT_RUN_CONTEXT_ATTR_NAME, None):
-                buffer.write(b)
-                output_func(buffer.getvalue())
+                try:
+                    buffer.write(b)
+                    output_func(buffer.getvalue())
+                except:
+                    old_write(b)
             else:
                 old_write(b)
 
