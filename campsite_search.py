@@ -65,9 +65,8 @@ class camper_x:
                                              verbose=verbose)
         return pd.DataFrame([dict(camp) for camp in camp_list])
     
-    
-    @st.cache(max_entries=50,suppress_st_warning=True)   #cache setup to avoid too large cache
-    def continuous_search_campsite(self,rec_area,session_state=True,email=None,campground_id=None):
+    @st.cache_data(max_entries=50) 
+    def continuous_search_campsite(_self,rec_area,session_state=True,email=None,campground_id=None):
         """
         continuous_search_campsite
         
@@ -90,7 +89,7 @@ class camper_x:
                 valid_email=0
         while True:
             print(f'{dt.now()}    🌎🌎🌎🌎Searching Started...')
-            df=self.find_campsite(rec_area,log=False,verbose=False,campground_id=campground_id)
+            df=_self.find_campsite(rec_area,log=False,verbose=False,campground_id=campground_id)
             if session_state==False:
                 break
             if len(df)>0:
@@ -113,7 +112,7 @@ class camper_x:
         return df
     
 
-    def ult_search(self,continuous,rec_area,session_state=True,campground_id=None,email=None):
+    def ult_search(self,continuous,rec_area,session_state,campground_id=None,email=None):
         """
         ult_search
         

@@ -4,6 +4,7 @@ import numpy as np
 import datetime as dt
 from campsite_search import camper_x
 from campsites import campsite_list
+from camply.exceptions import SearchError
 
 #Streamlit page setup
 
@@ -86,12 +87,21 @@ if continuous:
 else:
     email = None
 
+def stop():
+    if 'recording' not in st.session_state:
+        st.session_state['recording']=False
+    if st.session_state['recording'] == True:
+        st.session_state['recording'] = False
+        st.info('Searching stopped ☔, please refresh the page to restart')
+        st.cache_data.clear()
+        st.stop()
+
 ## start and stop button
 col3, col4 = st.columns(2)
 with col3:
     run_code=st.button('Search')
 with col4:
-    stop_code=st.button('Stop')
+    stop_code=st.button('Stop',on_click=stop)
 
 
 def main():  
@@ -109,16 +119,18 @@ def main():
                     st.dataframe(df)
                 else:
                     st.warning('No available campsite found! ❌')
-            except (SystemExit,IndexError):
+            except (SystemExit):
                 st.warning('Invalid entry, please check your input! ⚠️')
+            except IndexError:
+                st.warning('Invalid date range, please check your input! ⚠️')
+            except(SearchError):
+                st.warning('Invalid Recreation or Campground ID, please check your input! ⚠️')
             st.session_state['recording']=False
-    if stop_code:
-        st.session_state['recording'] = False
-        st.info('Searching stopped ☔')
-        st.stop()
+
 
 if __name__=='__main__':
     main()
+  
         
     
       

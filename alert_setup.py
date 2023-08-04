@@ -46,7 +46,7 @@ class email_alert:
         """.format(body)
         part=MIMEText(html,'html')
         msg.attach(part)
-        msg['subject']='Camper X Got You! ✨ ✨ ✨ '
+        msg['subject']='Welcome to Camper X! ✨ ✨ ✨ '
         with smtplib.SMTP("smtp.gmail.com",587) as server:
             server.starttls()
             server.login(self.user,self.password)
