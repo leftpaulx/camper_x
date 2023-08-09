@@ -84,6 +84,7 @@ class camper_x:
             try:
                 notification.welcome(email)
                 valid_email=1
+                st.info("An email has been sent to your address. If you don't see it, please check you spam folder." )
             except:
                 st.warning('Email entry is not valid, no notification will be sent out.')
                 valid_email=0

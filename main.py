@@ -5,6 +5,7 @@ import datetime as dt
 from campsite_search import camper_x
 from campsites import campsite_list
 from camply.exceptions import SearchError
+from requests import HTTPError
 
 #Streamlit page setup
 
@@ -65,16 +66,15 @@ nights=st.number_input('How many nights would you like to stay?',
 ## campsite id input widget 
 col1, col2 = st.columns(2)
 with col1:
-    rec_area=st.number_input('Please enter the recreation area id',
+    rec_area=st.number_input('Please enter the recreation area ID',
                        min_value=1,
                        step=1,
-                       help='Recreation area id can be found in the reservation website url')
+                       help='Recreation area ID can be found in the reservation website url')
     
 with col2:
-    if st.checkbox('Search by Campground id?',help="Try campground id if you see string 'campground' in the url or recreation area does not work."):
-        campground_id=st.number_input('Please enter the campground id',
-                        min_value=0,
-                        step=1)
+    if st.checkbox('Search by Campground id?',help="Try checking this box if you see string 'campground' in the url or recreation area ID does not work."):
+        campground_id=rec_area
+        rec_area=1
     else:
         campground_id=None   
 
@@ -83,7 +83,7 @@ continuous=  st.checkbox('Continuous Search',help='Search will be performed ever
 
 ## email input widget if continuous is selected
 if continuous:
-    email = st.text_input('Please enter your email', help='Alert will be sent to you email if the campsite is available') 
+    email = st.text_input('Please enter your email', help='Optional. If valid email is provided, alert will be sent to the email when the campsite is found') 
 else:
     email = None
 
@@ -119,12 +119,12 @@ def main():
                     st.dataframe(df)
                 else:
                     st.warning('No available campsite found! ❌')
-            except (SystemExit):
+            except (SystemExit,IndexError):
                 st.warning('Invalid entry, please check your input! ⚠️')
-            except IndexError:
-                st.warning('Invalid date range, please check your input! ⚠️')
-            except(SearchError):
+            except SearchError:
                 st.warning('Invalid Recreation or Campground ID, please check your input! ⚠️')
+            except HTTPError:
+                st.warning('Oops, the IP seems to be blocked by the provider. Please try running the search on local ⚠️')
             st.session_state['recording']=False
 
 
