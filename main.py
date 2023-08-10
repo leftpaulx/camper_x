@@ -107,7 +107,12 @@ with col4:
 def main():  
     if run_code:    
         # initiate camper_x 
-        cx=camper_x(dates[0],dates[1],provider=provider,weekends_only=st.session_state['weekends'],days_of_the_week=st.session_state['weekdays'],nights=nights) 
+        try:
+            cx=camper_x(dates[0],dates[1],provider=provider,weekends_only=st.session_state['weekends'],days_of_the_week=st.session_state['weekdays'],nights=nights) 
+        except IndexError:
+            st.warning('Invalid date range, please enter both start and end date ⚠️') 
+            st.session_state['recording']=False
+            return
         # set starting session state
         st.session_state['recording'] = True
         while st.session_state['recording']== True:
@@ -125,6 +130,8 @@ def main():
                 st.warning('Invalid Recreation or Campground ID, please check your input! ⚠️')
             except HTTPError:
                 st.warning('Oops, the IP seems to be blocked by the provider. Please try running the search on local ⚠️')
+            except:
+                st.warning('Something unexpected happened ⚠️')
             st.session_state['recording']=False
 
 
